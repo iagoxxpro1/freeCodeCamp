@@ -1,7 +1,7 @@
 const character = "#";
 const count = 8;
 const rows = [];
-let inverted = true;
+let inverted = false; /*se mudar false para true ele inverte a piramide*/
 
 function padRow(rowNumber, rowCount) {
   return (
